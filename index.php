@@ -10,7 +10,7 @@ if(isset($_REQUEST["etat"])) {
 }
 else
     $etat = 0;
-switch($etat)
+switch($etat )
 {
     case    0:
         AfficherListe($bdd);
