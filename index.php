@@ -1,7 +1,7 @@
 <?php
 
 // Sous WAMP
-$bdd = new PDO('mysql:host=127.0.0.1;dbname=gsb;charset=utf8', 'root', '');
+$bdd = new PDO('mysql:host=127.0.0.1;dbname=cs;charset=utf8', 'root', '');
 
 echo "<H1>Logiciel Intralab</H1>";
 
